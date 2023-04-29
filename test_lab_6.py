@@ -6,7 +6,7 @@ def test_odejmowanie():
     data = {"a": 2.5, "b": 3.5}
     response = requests.post("http://127.0.0.1:8000/odejmowanie", json=data)
 
-    assert response.status_code == 200
+    assert response.status_code == 201
 
 
 def test_mnozenie():
