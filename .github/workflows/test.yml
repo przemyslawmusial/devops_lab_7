@@ -58,3 +58,4 @@ jobs:
         KUBE_CONFIG: ${{ secrets.AZURE_CREDENTIALS }}
       with:
         args: rollout restart deployment moja-app -n test-namespace
+        
