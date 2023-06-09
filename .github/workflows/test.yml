@@ -60,3 +60,4 @@ jobs:
         args: rollout restart deployment moja-app -n test-namespace
         
         
+        
